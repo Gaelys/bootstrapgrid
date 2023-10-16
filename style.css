@@ -4,11 +4,17 @@
 }
 
 @keyframes changeColor {
-0% { 
-    background-color: orange;
+    0% { 
+        background-color: orange;
+    }
+
+    100% {
+        background-color: rgb(247, 82, 64);
+    }
 }
 
-100% {
-    background-color: rgb(247, 82, 64);
+.walk--anim {
+    height: 40px;
+    transform: translate(0px ,40px )1s ease infinite ;
 }
-}
+
